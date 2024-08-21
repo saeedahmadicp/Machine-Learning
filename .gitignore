@@ -133,11 +133,57 @@ dmypy.json
 
 
 ## ignore data and model files
-Projects/classifiers/movies_reviews_classification/data/
-Projects/classifiers/movies_reviews_classification/models/
-Projects/recommenders/Coursera_embeddings/data/
-Theory/Probability/naive_bayes_classifier/data/
 *.pt 
+Theory/**/data/
+Theory/**/dataset/
+Theory/**/datasets/
+Theory/**/model/
+Theory/**/models/
+Theory/**/pretrained-model/
+Theory/**/pretrained-models/
+Theory/**/audio/
+Theory/**/raw_data/
+Projects/**/data/
+Projects/**/dataset/
+Projects/**/datasets/
+Projects/**/model/
+Projects/**/models/
+Projects/**/pretrained-model/
+Projects/**/pretrained-models/
+Projects/**/audio/
+Projects/**/raw_data/
+
+# ignore video files
+*.mp4
+*.avi
+*.mov
+*.flv
+*.wmv
+*.mkv
+*.webm
+
+# ignore image files
+*.png
+*.gif
+*.svg
+*.bmp
+*.ico
+*.webp
+
+# ignore npy files
+*.npy
+
+# .DS_Store
+**/.DS_Store
 
 #api keys
 api.json
+
+#ignore logs
+logs/
+
+# assets
+assets/
+
+# .pth
+*.pth
